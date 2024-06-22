@@ -30,7 +30,10 @@ pip install -r requirements.txt
 ```
 
 #### Usage
-
+**Running the notebook for End to End Machine Learning Implementation**: 
+```sh
+Run each code blocks of PredictiveECommerceML.ipynb 
+```
 **Data Preparation**:
 - Ensure your dataset is in the data directory.
 - The dataset should be in CSV format and follow the required schema.
@@ -52,16 +55,14 @@ python trainLSTM.py
 
 **Make Predictions**:
 ```sh
-python predict.py --input <input_data_file> --output <output_predictions_file>
+python inference.py --input <input_data_file> --output <output_predictions_file>
 ```
 
 #### Project Structure
 - **data/**: Directory for storing datasets.
 - **models/**: Directory for saving trained models.
-- **notebooks/**: Jupyter notebooks for exploratory data analysis and model experimentation.
-- **scripts/**: Python scripts for data processing, training, and prediction.
-- **train.py**: Script for training the machine learning model.
-- **predict.py**: Script for making predictions using the trained model.
+- **main.py**: Script for training the machine learning model.
+- **inference.py**: Script for making predictions using the trained model.
 - **requirements.txt**: List of dependencies required for the project.
 - **README.md**: Project documentation.
 
