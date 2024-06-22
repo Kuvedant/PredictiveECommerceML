@@ -9,7 +9,6 @@ This project aims to predict the purchasing intention of online shoppers in real
 - **Machine Learning Models**: Utilizes advanced machine learning models to analyze and predict purchasing intentions.
 - **Feature Engineering**: Includes extensive feature engineering to derive meaningful insights from raw data.
 - **Visualization and Reporting**: Provides visualizations and reports for better understanding and decision-making.
-- **User-Friendly Interface**: A dashboard for easy interaction with the model and visualization of results.
 
 #### Installation
 
@@ -61,7 +60,6 @@ python predict.py --input <input_data_file> --output <output_predictions_file>
 - **models/**: Directory for saving trained models.
 - **notebooks/**: Jupyter notebooks for exploratory data analysis and model experimentation.
 - **scripts/**: Python scripts for data processing, training, and prediction.
-- **dashboard.py**: Streamlit application for visualizing predictions and model performance.
 - **train.py**: Script for training the machine learning model.
 - **predict.py**: Script for making predictions using the trained model.
 - **requirements.txt**: List of dependencies required for the project.
