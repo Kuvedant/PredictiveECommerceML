@@ -102,4 +102,4 @@ python predict.py --input <input_data_file> --output <output_predictions_file>
 Contributions are welcome! Please read the `CONTRIBUTING.md` file for guidelines on how to get involved.
 
 #### License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+This project is licensed under the GNU General Public License v3.0 - see the `LICENSE` file for details.
