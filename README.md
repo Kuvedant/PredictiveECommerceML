@@ -15,8 +15,8 @@ This project aims to predict the purchasing intention of online shoppers in real
 
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/online-shoppers-prediction.git
-cd online-shoppers-prediction
+git clone https://github.com/Kuvedant/PredictiveECommerceML.git
+cd PredictiveECommerceML
 ```
 
 Create a virtual environment:
